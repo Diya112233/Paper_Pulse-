@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="500.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project_news.about.AboutController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#183551" height="536.0" stroke="BLACK" strokeType="INSIDE" width="116.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#183551" height="281.0" layoutX="473.0" layoutY="198.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <ImageView fitHeight="134.0" fitWidth="200.0" layoutX="483.0" layoutY="198.0" pickOnBounds="true" preserveRatio="true" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#183551" height="281.0" layoutX="203.0" layoutY="198.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <ImageView fitHeight="134.0" fitWidth="200.0" layoutX="203.0" layoutY="198.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="146.0" layoutY="29.0" text="Paper Pulse : " textFill="#33246e">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

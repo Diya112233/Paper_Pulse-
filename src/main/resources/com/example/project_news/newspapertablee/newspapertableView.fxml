@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="527.0" prefWidth="716.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project_news.newspapertable.newspapertableController">
+   <children>
+      <Label layoutX="199.0" layoutY="23.0" prefHeight="46.0" prefWidth="318.0" text="All Newspapers Table">
+         <font>
+            <Font name="Arial" size="32.0" />
+         </font>
+      </Label>
+      <Button layoutX="288.0" layoutY="82.0" mnemonicParsing="false" onAction="#doGetAll" text="Get All Newspapers">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <TableView fx:id="tblnewspapers" layoutX="186.0" layoutY="128.0" prefHeight="317.0" prefWidth="344.0" />
+      <Button layoutX="310.0" layoutY="465.0" mnemonicParsing="false" onAction="#doExportToExcel" text="Export To Excel" />
+   </children>
+</AnchorPane>

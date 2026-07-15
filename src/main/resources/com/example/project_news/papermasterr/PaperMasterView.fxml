@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project_news.papermaster.PaperMasterController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b5babf" height="200.0" layoutX="57.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" width="332.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#adb4bc" height="268.0" layoutX="434.0" layoutY="52.0" stroke="BLACK" strokeType="INSIDE" width="124.0" />
+      <Button layoutX="475.0" layoutY="91.0" mnemonicParsing="false" onAction="#doNew" text="NEW" />
+      <Button layoutX="474.0" layoutY="143.0" mnemonicParsing="false" onAction="#doSave" text="SAVE" />
+      <Button layoutX="466.0" layoutY="199.0" mnemonicParsing="false" onAction="#doUpdate" text="UPDATE" />
+      <Button layoutX="467.0" layoutY="259.0" mnemonicParsing="false" onAction="#doDelete" text="DELETE" />
+      <TextField fx:id="txtPrice" layoutX="141.0" layoutY="268.0" />
+      <TextField fx:id="txtLang" layoutX="141.0" layoutY="199.0" />
+      <Label layoutX="67.0" layoutY="147.0" text="PAPER TITLE" />
+      <Label layoutX="69.0" layoutY="208.0" text="LANGUAGE" />
+      <Label layoutX="84.0" layoutY="272.0" text="PRICE" />
+      <Label layoutX="200.0" layoutY="37.0" text="PAPER MASTER">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="comboPaperTitle" editable="true" layoutX="140.0" layoutY="143.0" prefWidth="150.0" />
+      <ImageView fx:id="imgprev" fitHeight="80.0" fitWidth="100.0" layoutX="65.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

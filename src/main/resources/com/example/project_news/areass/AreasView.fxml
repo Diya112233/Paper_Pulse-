@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="478.0" prefWidth="490.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project_news.areas.AreasController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f3e5b" height="244.0" layoutX="52.0" layoutY="132.0" stroke="BLACK" strokeType="INSIDE" width="386.0" />
+      <Label layoutX="201.0" layoutY="177.0" text="Add Area" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtArea" layoutX="163.0" layoutY="224.0" prefHeight="30.0" prefWidth="162.0" />
+      <Label layoutX="171.0" layoutY="43.0" prefHeight="50.0" prefWidth="162.0" text="Area Master">
+         <font>
+            <Font name="Sylfaen" size="30.0" />
+         </font>
+      </Label>
+      <Button layoutX="222.0" layoutY="294.0" mnemonicParsing="false" onAction="#doSave" prefHeight="30.0" prefWidth="59.0" style="-fx-background-color: white;" text="Save">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
